@@ -1,6 +1,8 @@
 package trees
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func dispalyTreeByPre(root *TreeNode) {
 	if root == nil {
