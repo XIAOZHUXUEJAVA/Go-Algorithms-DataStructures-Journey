@@ -24,4 +24,12 @@ func TestSort(t *testing.T) {
 			t.Errorf("sortedNums: %d, expectedNums: %d", sortedNums, expectedNums)
 		}
 	})
+	t.Run("Test bubbleSort()", func(t *testing.T) {
+		expectedNums := []int{1, 2, 3, 4, 5, 7, 8, 9}
+		bubbleSort(originalNums)
+		sortedNums := originalNums
+		if !reflect.DeepEqual(sortedNums, expectedNums) {
+			t.Errorf("sortedNums: %d, expectedNums: %d", sortedNums, expectedNums)
+		}
+	})
 }
