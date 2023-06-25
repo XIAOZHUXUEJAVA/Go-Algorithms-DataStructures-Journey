@@ -20,6 +20,6 @@ func TestHasCycle(t *testing.T) {
 	node5.Next = node2
 
 	result := hasCycle(head)
-
+	// assert.False(t, result)
 	assert.True(t, result)
 }
