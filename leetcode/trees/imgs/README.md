@@ -1,1 +1,0 @@
-# [TreeTestimages.md](https://github.com/XIAOZHUXUEJAVA/Java-Algorithms-DataStructures-Journey/blob/master/src/main/java/com/zhu/leetcode/utils/images/TreeTestimages.md)文件存放用于测试的二叉树的图片
