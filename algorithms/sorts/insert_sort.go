@@ -13,5 +13,4 @@ func insertSort(nums []int) {
 		}
 		nums[j+1] = key
 	}
-
 }
